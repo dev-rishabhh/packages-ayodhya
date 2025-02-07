@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react'
 
-import { db } from '../firebaseconfig';
+import { db } from '..firebaseConfig.js';
 import { collection, getDocs } from 'firebase/firestore';
 
 export const fetchData = (name) => {

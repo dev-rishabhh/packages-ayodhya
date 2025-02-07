@@ -1,0 +1,24 @@
+.BlogsSection{
+    background-color: rgb(245, 238, 173);
+    padding: 12px 16px;
+    /* color: orange; */
+}
+.BlogsSection h1{
+    color: rgb(150, 2, 2);
+}
+.BlogsSection a p  {
+    padding:4px 12px ;
+    margin: 12px 0px;
+    /* font-size: 20px; */
+    color: rgb(37, 37, 37);
+    border:1px solid black;
+    border-radius: 13px;
+    color: blue;
+    display: inline-block;
+}
+
+/* .BlogsSection{
+    animation: wrapout linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+} */

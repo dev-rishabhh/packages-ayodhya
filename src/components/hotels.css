@@ -1,0 +1,139 @@
+.hotels{
+    padding: 12px 24px;
+    background-color: rgb(245, 245, 192);
+}
+.hotels .header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #f4a261;
+    margin: 12px 0px;
+  }
+  
+  .hotels .page-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hotels .intro-text {
+    font-size: 1.2em;
+    margin-top: 5px;
+  }
+  
+  .filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .hotels label {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .hotels select {
+    padding: 5px;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Hotel list section */
+  .hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  
+  .hotel-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    margin: 20px 0;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  .hotel-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .hotel-image {
+    width: 100%;
+    height: 200px;
+    border-bottom: 2px solid #f4a261;
+  }
+  
+  .hotel-name {
+    font-size: 1.6em;
+    margin-top: 15px;
+    color: #2d2d2d;
+  }
+  
+  .hotel-rating {
+    color: red;
+  }
+  .hotels .call-to-action {
+    background-color: #f4a261;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 8px;
+  }
+  
+  .hotels .call-to-action h2 {
+    font-size: 2em;
+  }
+  
+  .hotels .call-to-action p {
+    font-size: 1.2em;
+  }
+  
+  /* Footer section */
+  .footer {
+    background-color: #006f89;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+  }
+  
+  .footer p {
+    font-size: 1.2em;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .hotel-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hotel-card {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hotel-card {
+      width: 90%;
+    }
+  
+    .page-title {
+      font-size: 2em;
+    }
+  
+    .intro-text {
+      font-size: 1em;
+    }
+  }
+  .hotel-card{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}

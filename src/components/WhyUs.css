@@ -1,0 +1,55 @@
+.whyus {
+    padding: 12px 16px;
+    /* background-image: url('./int-bg.jpg'); */
+    background-color: rgb(245, 245, 192);
+}
+
+.whyus-heading {
+    font-size: 28px;
+    color: rgb(221, 56, 27);
+}
+
+.whyus-heading p {
+  text-align: center;
+}
+.whyus-cont {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.whyus{
+    animation: leftanimate linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.whyus-card{
+    width: 45%;
+    padding: 12px 16px;
+    margin: 8px 12px;
+    border-radius: 9px;
+}
+
+.whyus-card h2 p {
+    color: orange;
+}
+.whyus-card p{
+    text-align: center;
+}
+
+.reason-logo p{
+font-size: 32px;
+color: orange;
+
+}
+@media (max-width:740px){
+    .whyus-card{
+        width: 100%;
+    }
+}
+.whyus-card{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}

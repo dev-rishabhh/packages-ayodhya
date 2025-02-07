@@ -1,0 +1,128 @@
+
+.tour-name{
+  text-align: center;
+  margin: 12px 0px;
+  color: rgb(167, 2, 2);
+}
+.tour-overview{
+  padding: 12px 16px;
+}
+
+.banner {
+    text-align: center;
+  }
+  
+  .banner-image {
+    margin-top: 20px;
+    width: 60%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .quick-info {
+    text-align: center;
+    padding: 1rem;
+    width: 80%;
+    margin: auto;
+
+  }
+  .stars{
+    color: red;
+  }
+  .quick-info h2 {
+    margin-bottom: 0.5rem;
+    color: orange;
+  }
+  
+  .quick-info table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .quick-info td {
+    padding: 0.5rem;
+  }
+  
+  .itinerary {
+    padding: 1rem;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .itinerary h2 {
+    margin-bottom: 1rem;
+    color: red;
+  }
+  
+  .day {
+    margin-bottom: 1rem;
+  }
+  .day h3{
+   color: orange;
+  }
+  
+  .inclusion-exclusion {
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  .inclusion, .exclusion {
+    margin-bottom: 12px;
+  }
+  
+  .inclusion ul, .exclusion ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .inclusion ul li, .exclusion ul li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .inclusion ul li span{
+    color: green;
+  }
+  .exclusion ul li span{
+    color:red ;
+  }
+  .inclusion h2, .exclusion h2 {
+    margin-bottom: 8px;
+    color: red;
+  }
+.call-to-action {
+    background-color: #f4a261;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 16px 0px;
+    border-radius: 8px;
+  }
+  .more{
+    /* width: 80%;
+    margin: auto; */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .more-cont h2{
+    /* width: 80%; */
+    padding: 4px 16px;
+    margin: auto;
+    color: orangered;
+    /* margin-bottom: 12px; */
+  }
+  .inclusion, .exclusion, .itinerary  {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+  }
+  @media (max-width:740px){
+    .banner-image {
+      height: auto;
+    }
+  }

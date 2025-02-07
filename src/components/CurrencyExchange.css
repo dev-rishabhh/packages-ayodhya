@@ -1,0 +1,63 @@
+.CurrencyExchange-Container {
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .CurrencyExchange-Header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .CurrencyExchange-Header h1 {
+    font-size: 32px;
+    color: #2c3e50;
+  }
+  
+  .CurrencyExchange.Header p {
+    font-size: 18px;
+    color: #34495e;
+  }
+  
+  .CurrencyExchange-IntroSection,
+  .CurrencyExchange-HowItWorksSection,
+  .CurrencyExchange-CtaSection {
+    margin-top: 30px;
+    animation: leftanimate linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+  }
+  
+  .CurrencyExchange-IntroSection h2,
+  .CurrencyExchange-HowItWorksSection h2,
+  .CurrencyExchange-CtaSection h2 {
+    font-size: 24px;
+    color: #df9711;
+  }
+  
+  .CurrencyExchange-IntroSection p,
+  .CurrencyExchange-HowItWorksSection p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .CurrencyExchange-HowItWorksSection ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #34495e;
+  }
+  
+  
+  .CurrencyExchange-CtaSection {
+    margin-top: 30px;
+  }
+  
+  .CurrencyExchange-CtaSection p {
+    font-size: 18px;
+    color: #27ae60;
+  }
+  

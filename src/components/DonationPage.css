@@ -1,0 +1,86 @@
+
+.donation{
+    background: #f0f4f6;
+}
+
+.donation-container {
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .donation-header h1 {
+    font-size: 32px;
+    color: #b30000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .donation-header p {
+    font-size: 16px;
+    color: #3a3a3a;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  .donation-content {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .donation-content h2 {
+    font-size: 24px;
+    color: #00796b;
+    margin-bottom: 10px;
+  }
+  
+  .qr-code-wrapper {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 15px;
+    background: #fdf8e3;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .qr-code {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .donor-benefits {
+    margin-top: 30px;
+  }
+  
+  .donor-benefits h2 {
+    font-size: 24px;
+    color: #0056b3;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .donor-benefits ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .donor-benefits li {
+    font-size: 16px;
+    color: #3a3a3a;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .donor-benefits li strong {
+    color: #00796b;
+  }
+  
+  .donation-footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+  }

@@ -1,0 +1,96 @@
+.special-darshan-container {
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .special-darshan-container .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .special-darshan-container .header img {
+    max-width: 80vw;
+  }
+  .special-darshan-container .header h1 {
+    font-size: 32px;
+    color: #2c3e50;
+  }
+  
+  .special-darshan-container .header p {
+    font-size: 18px;
+    color: #34495e;
+  }
+  
+  .special-darshan-container .intro-section, .benefits-section, .how-it-works-section, .testimonials-section, .cta-section {
+    margin-top: 30px;
+  }
+  
+  .special-darshan-container .intro-section h2, .benefits-section h2, .how-it-works-section h2, .testimonials-section h2, .cta-section h2 {
+    font-size: 24px;
+    color: #d86213;
+  }
+  
+  .special-darshan-container .intro-section p, .how-it-works-section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .special-darshan-container .benefits-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #34495e;
+  }
+  
+  .special-darshan-container .testimonials-section p {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-top: 10px;
+  }
+  
+  .special-darshan-container .testimonials-section strong {
+    color: #2c3e50;
+  }
+  
+  .special-darshan-container .cta-section {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+  }
+  
+  .special-darshan-container .cta-section p {
+     margin-bottom: 12px; 
+    /* color: #27ae60; */
+  }
+/*   
+  .special-darshan-container .book-button {
+    background-color: #e74c3c;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .special-darshan-container .book-button:hover {
+    background-color: #c0392b;
+  } */
+  
+  .special-darshan-container .footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #7f8c8d;
+  }
+  .intro-section, .benefits-section, .how-it-works-section, .cta-section{
+    animation: leftanimate linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+  }

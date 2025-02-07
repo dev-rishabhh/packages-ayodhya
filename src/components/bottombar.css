@@ -1,0 +1,32 @@
+.bottom-bar{
+    position: fixed;
+    width: 100vw;
+    bottom: 0px;
+    backdrop-filter: blur(100px);
+    box-shadow: 2px 8px 24px rgba(0,0,0,0.8);
+    padding: 8px 0px;
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    z-index: 10;
+}
+.bottom-bar button{
+   border:  1px solid orange;
+   padding: 4px 12px;
+   color: orange;
+   border-radius: 13px;
+   cursor: pointer;
+}
+/* .donation-btn{
+    position: absolute;
+    right: 32px;
+}
+.donation-btn button{
+    background-color: #338bff;
+    
+} */
+@media (max-width:640px){
+    .bottom-bar{
+        gap:24px;
+    }
+}

@@ -42,6 +42,7 @@ export default function form() {
                 person: '',
                 whatsapp: '',
             }) 
+            alert(" Enquiry form submitted sucessfully!")
             
         }
 

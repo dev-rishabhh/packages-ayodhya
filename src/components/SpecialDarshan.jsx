@@ -10,7 +10,7 @@ function SpecialDarshan() {
    
     let PackageData;
     if (PackagesData) {
-        PackageData = PackagesData.filter((data) => data.id === "Special-Ayodhya-tour")
+        PackageData = PackagesData.find((data) => data.id === "Special-Ayodhya-tour")
     }
     return (
         <div className="special-darshan-container">
@@ -114,7 +114,7 @@ function SpecialDarshan() {
                 <p>Don’t miss out on this opportunity to experience a divine, hassle-free Darshan. Book your VIP Darshan and let your spiritual journey begin.</p>
                 <div>
                   <Suspense fallback={<div>Loading...</div>}>
-                {PackageData && <Package data={PackagesData[0]}/>}
+                {PackageData && <Package data={PackageData}/>}
                   </Suspense>
                 </div>
             </div>

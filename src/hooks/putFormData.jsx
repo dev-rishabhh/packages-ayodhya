@@ -1,7 +1,7 @@
 import React from 'react'
     
     
-import { db } from '../firebaseconfig';
+import { db } from '../firebaseConfig.js';
 import { collection, addDoc } from 'firebase/firestore';
 
 export const putFormData=(name,Data)=>{

@@ -26,8 +26,8 @@ function WhetherCard() {
     const Whetehrdata = async () => {
         try {
             const [weatherResponse, airResponse] = await Promise.all([
-                fetch(`http://api.openweathermap.org/data/2.5/weather?q=Ayodhya,IN&APPID=${apiKey}`),
-                fetch(`http://api.openweathermap.org/data/2.5/air_pollution?lat=26.8&lon=82.2&APPID=${apiKey}`)
+                fetch(`https://api.openweathermap.org/data/2.5/weather?q=Ayodhya,IN&APPID=${apiKey}`),
+                fetch(`https://api.openweathermap.org/data/2.5/air_pollution?lat=26.8&lon=82.2&APPID=${apiKey}`)
             ])
             if (weatherResponse && airResponse) {
                 const [weatherdata, airdata] = await Promise.all([

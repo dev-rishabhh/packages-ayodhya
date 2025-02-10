@@ -4,33 +4,6 @@ import { Helmet } from 'react-helmet-async'
 
 function BikeRental() {
 
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Bike Rental",
-    "provider": {
-      "@type": "Organization",
-      "name": "Your Website Name",
-      "url": "https://packagesayodhya.in/"
-    },
-    "areaServed": [
-      { "@type": "Place", "name": "Ayodhya" },
-      { "@type": "Place", "name": "Lucknow" },
-      { "@type": "Place", "name": "Varanasi" }
-    ],
-    "priceRange": "₹500–₹2000 per day",
-    "offers": {
-      "@type": "Offer",
-      "url": "https://packagesayodhya.in/bike-rental",
-      "priceCurrency": "INR",
-      "price": "500",
-      "eligibleRegion": { "@type": "Place", "name": "India" }
-    },
-    "mainEntityOfPage": "https://namsteAyodhya.com/bike-rental",
-    "description": "Affordable bike rental services in Ayodhya, Lucknow, Varanasi, and more. Rent bikes for city exploration, tourist visits, and short-term trips. Flexible plans and easy booking.",
-    "image": "https://namaste.com/images/pulsar.webp"
-  };
-
   const bikes = [
     {
       name: "Bajaj Pulsar",
@@ -87,7 +60,32 @@ function BikeRental() {
 
         {/*structured data  */}
         <script type="application/ld+json">
-          {JSON.stringify(structuredData)}
+          {JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Bike Rental",
+    "provider": {
+      "@type": "Organization",
+      "name": "Your Website Name",
+      "url": "https://packagesayodhya.in/"
+    },
+    "areaServed": [
+      { "@type": "Place", "name": "Ayodhya" },
+      { "@type": "Place", "name": "Lucknow" },
+      { "@type": "Place", "name": "Varanasi" }
+    ],
+    "priceRange": "₹500–₹2000 per day",
+    "offers": {
+      "@type": "Offer",
+      "url": "https://packagesayodhya.in/bike-rental",
+      "priceCurrency": "INR",
+      "price": "500",
+      "eligibleRegion": { "@type": "Place", "name": "India" }
+    },
+    "mainEntityOfPage": "https://namsteAyodhya.com/bike-rental",
+    "description": "Affordable bike rental services in Ayodhya, Lucknow, Varanasi, and more. Rent bikes for city exploration, tourist visits, and short-term trips. Flexible plans and easy booking.",
+    "image": "https://namaste.com/images/pulsar.webp"
+  })}
         </script>
       </Helmet>
       <div className="header">

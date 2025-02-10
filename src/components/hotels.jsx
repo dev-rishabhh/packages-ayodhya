@@ -4,11 +4,9 @@ import Hotel from './hotel'
 import { Helmet } from "react-helmet-async";
 import { fetchData } from '../hooks/getData';
 
-// import HotelsData from '../data/hotelData/HotelsData'
 
 
 //put data to database
-
 // import { putData } from '../hooks/putData';
 // putData("Hotels",HotelsData)
 
@@ -56,7 +54,7 @@ export default function hotels() {
         <meta name="ICBM" content="26.7980, 82.2000" />
 
         {/* Canonical Tag */}
-        <link rel="canonical" href="https://packagesayodhya.in/" />
+        <link rel="canonical" href="https://packagesayodhya.in/hotels" />
 
         {/* Structured Data (Schema Markup for Hotels) */}
         <script type="application/ld+json">

@@ -51,8 +51,6 @@ export default function toppalaces() {
         <meta name="ICBM" content="26.7980, 82.2000" />
 
         {/* 🔹 Canonical URL */}
-        <link rel="canonical" href="https://packagesayodhya.in/top-places-to-visit-ayodhya"  />
-
         {/* 🔹 Structured Data for Top Places to Visit in Ayodhya (Schema Markup) */}
         <script type="application/ld+json">
           {JSON.stringify({

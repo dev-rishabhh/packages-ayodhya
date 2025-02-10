@@ -43,7 +43,7 @@ export default function taxiservice() {
         <meta name="ICBM" content="26.7980, 82.2000" />
 
         {/* 🔹 Canonical URL */}
-        <link rel="canonical" href="https://packagesayodhya.in/"/>
+        <link rel="canonical" href="https://packagesayodhya.in/cab-services"/>
 
         {/* 🔹 Structured Data for Cab Services (Schema Markup) */}
         <script type="application/ld+json">

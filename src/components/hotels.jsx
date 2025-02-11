@@ -58,41 +58,48 @@ export default function hotels() {
 
         {/* Structured Data (Schema Markup for Hotels) */}
         <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Hotel",
-            "name": "Top Hotels in Ayodhya",
-            "description": "Find the best hotels in Ayodhya near Ram Mandir, from budget stays to luxury accommodations. Compare prices, reviews, and amenities.",
-            "image": "https://packagesayodhya.in/images/clarksinn.webp" ,
-            "url": "https://packagesayodhya.in/hotels",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Main Road, Near Ram Mandir",
-              "addressLocality": "Ayodhya",
-              "addressRegion": "Uttar Pradesh",
-              "postalCode": "224123",
-              "addressCountry": "IN"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "26.7980",
-              "longitude": "82.2000"
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.5",
-              "reviewCount": "1245"
-            },
-            "priceRange": "₹1500 - ₹8000 per night",
-            "potentialAction": {
-              "@type": "ReserveAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://packagesayodhya.in/book-hotel?hotel_id={hotel_id}",
-                "inLanguage": "en"
+          {JSON.stringify(
+            {
+              "@context": "https://schema.org",
+              "@type": "TaxiService",
+              "name": "Ayodhya Varanasi Lucknow Taxi Services",
+              "description": "Reliable taxi services for tourists traveling between Ayodhya, Varanasi, and Lucknow.",
+              "image": "https://packagesayodhya.in/images/taxi-service.webp",
+              "url": "https://packagesayodhya.in/cab-services",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Main Office, Ayodhya",
+                "addressLocality": "Ayodhya",
+                "addressRegion": "Uttar Pradesh",
+                "postalCode": "224123",
+                "addressCountry": "IN"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "26.7980",
+                "longitude": "82.2000"
+              },
+              "priceRange": "₹1500 - ₹5000 per trip",
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "INR",
+                "price": "1500",
+                "url": "https://packagesayodhya.in/book-taxi",
+                "itemOffered": {
+                  "@type": "TaxiService",
+                  "name": "Taxi Service from Ayodhya to Varanasi"
+                }
+              },
+              "potentialAction": {
+                "@type": "ReserveAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://packagesayodhya.in/book-taxi?service_id={service_id}",
+                  "inLanguage": "en"
+                }
               }
             }
-          })}
+          )}
         </script>
       </Helmet>
       <header className="header">

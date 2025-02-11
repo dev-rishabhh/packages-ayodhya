@@ -61,31 +61,45 @@ function BikeRental() {
         {/*structured data  */}
         <script type="application/ld+json">
           {JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Bike Rental",
-    "provider": {
-      "@type": "Organization",
-      "name": "Your Website Name",
-      "url": "https://packagesayodhya.in/"
-    },
-    "areaServed": [
-      { "@type": "Place", "name": "Ayodhya" },
-      { "@type": "Place", "name": "Lucknow" },
-      { "@type": "Place", "name": "Varanasi" }
-    ],
-    "priceRange": "₹500–₹2000 per day",
-    "offers": {
-      "@type": "Offer",
-      "url": "https://packagesayodhya.in/bike-rental",
-      "priceCurrency": "INR",
-      "price": "500",
-      "eligibleRegion": { "@type": "Place", "name": "India" }
-    },
-    "mainEntityOfPage": "https://namsteAyodhya.com/bike-rental",
-    "description": "Affordable bike rental services in Ayodhya, Lucknow, Varanasi, and more. Rent bikes for city exploration, tourist visits, and short-term trips. Flexible plans and easy booking.",
-    "image": "https://namaste.com/images/pulsar.webp"
-  })}
+  "@context": "https://schema.org",
+  "@type": "TaxiService",
+  "name": "Ayodhya Varanasi Lucknow Taxi Services",
+  "description": "Reliable taxi services for tourists traveling between Ayodhya, Varanasi, and Lucknow. Enjoy comfortable and affordable rides for sightseeing and travel.",
+  "image": "https://yourwebsite.com/images/taxi-service.webp",
+  "url": "https://yourwebsite.com/cab-services",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Main Office, Ayodhya",
+    "addressLocality": "Ayodhya",
+    "addressRegion": "Uttar Pradesh",
+    "postalCode": "224123",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "26.7980",
+    "longitude": "82.2000"
+  },
+  "priceRange": "₹1500 - ₹5000 per trip",
+  "serviceArea": {
+    "@type": "Place",
+    "name": "Ayodhya, Varanasi, Lucknow",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "25.3176",
+      "longitude": "82.9739"
+    }
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://yourwebsite.com/book-taxi?service_id={service_id}",
+      "inLanguage": "en"
+    }
+  }
+}
+)}
         </script>
       </Helmet>
       <div className="header">

@@ -56,10 +56,11 @@ export default function homepage() {
                         {JSON.stringify({
                             "@context": "https://schema.org",
                             "@type": "WebSite",
-                            "name": "namaste Ayodhya",
+                            "name": "packagesayodhya",
                             "url": "https://packagesayodhya.in/",
                             "description": "Explore Ayodhya and beyond with expert travel guides, bike rentals, and tour packages. Plan your perfect trip today!",
                             "image": "https://packagesayodhya.in/images/varanasi-background.webp",
+                            "keywords": "ayodhya tour packages, ram mandir tour packages, chennai to ayodhya tour, bengluru to ayodhya tour, ayodhya varanasi lucknow tour, hotels in ayodhya, ram mandir, ram temple, cab in ayodhya, top places to visit in ayodhya, ram temple tour",
                             "sameAs": [
                                 "https://www.facebook.com/packages-ayodhya",
                                 "https://www.instagram.com/packages-ayodhya",
@@ -67,7 +68,7 @@ export default function homepage() {
                             ],
                             "publisher": {
                                 "@type": "Organization",
-                                "name": "namaste Ayodhya",
+                                "name": "packagesyodhya",
                                 "logo": {
                                     "@type": "ImageObject",
                                     "url": "https://packagesayodhya.in/images/varanasi-background.webp"

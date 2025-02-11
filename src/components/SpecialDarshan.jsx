@@ -44,8 +44,8 @@ function SpecialDarshan() {
         <link rel="canonical" href="https://packagesayodhya.in/special-darshan" />
 
         {/* 🔹 Structured Data for Special Darshan Package (Schema Markup) */}
-        <script type="application/ld+json">
-          {JSON.stringify({
+        <script type="application/ld+json">{JSON.stringify(
+          {
             "@context": "https://schema.org",
             "@type": "Offer",
             "name": "Special Darshan Package for Ram Mandir",

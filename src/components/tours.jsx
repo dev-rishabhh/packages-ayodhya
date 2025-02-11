@@ -18,7 +18,7 @@ export default function tours() {
       <Helmet>
       <title>Ayodhya and Other Spiritual Tour Packages | Explore India's Spiritual Heritage</title>
   <meta name="description" content="Explore our range of spiritual tour packages, including Ayodhya, Varanasi, Lucknow, and more. Book your next spiritual journey with us!" />
-  <meta name="keywords" content="spiritual tours, ayodhya tour packages, varanasi tours, lucknow tours, india spiritual tours, holy tour packages, tour packages from delhi, best spiritual tours in india" />
+  <meta name="keywords" content="spiritual tours, ayodhya tour packages, varanasi tours, lucknow tours, india spiritual tours, holy tour packages, tour packages from delhi, best spiritual tours in india, ram madir tour packages ," />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://packagesayodhya.in/tours" />
   <meta property="og:title" content="Ayodhya and Other Spiritual Tour Packages | Explore India's Spiritual Heritage" />
@@ -33,14 +33,15 @@ export default function tours() {
   <meta name="geo.placename" content="Ayodhya" />
   <meta name="geo.position" content="26.7980;82.2000" />
   <meta name="ICBM" content="26.7980, 82.2000" />
-  <script type="application/ld+json">
-  {JSON.stringify(  {
+  <script type="application/ld+json">{JSON.stringify(
+    {
     "@context": "https://schema.org",
     "@type": "TouristAttraction",
     "name": "Ayodhya and Other Spiritual Tour Packages",
     "description": "Explore a variety of spiritual tour packages, including trips to Ayodhya, Varanasi, and Lucknow. Visit sacred temples and learn about India's rich spiritual heritage.",
     "image": "https://packagesayodhya.in/images/ram-img .webp",
     "url": "https://packagesayodhya.in/tours",
+   "keywords": "ayodhya tour packages, varanasi tour package , lucknow tour package , lucknow to ayodhya tour package, varanasi ayodhya spiritual tour, tour packages to ayodhya, ram mandir tour package, tours for ayodhya, spiritual tour ayodhya, delhi to ayodhya tour package, bengluru ayodhy tour package",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Ayodhya",

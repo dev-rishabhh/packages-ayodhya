@@ -57,34 +57,39 @@ export default function hotels() {
         <link rel="canonical" href="https://packagesayodhya.in/hotels" />
 
         {/* Structured Data (Schema Markup for Hotels) */}
-        <script type="application/ld+json">
-          {JSON.stringify(
-            {
+        <script type="application/ld+json">{JSON.stringify(
+          {
               "@context": "https://schema.org",
-              "@type": "TaxiService",
-              "name": "Ayodhya Varanasi Lucknow Taxi Services",
-              "description": "Reliable taxi services for tourists traveling between Ayodhya, Varanasi, and Lucknow.",
-              "image": "https://packagesayodhya.in/images/taxi-service.webp",
-              "url": "https://packagesayodhya.in/cab-services",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Main Office, Ayodhya",
-                "addressLocality": "Ayodhya",
-                "addressRegion": "Uttar Pradesh",
-                "postalCode": "224123",
-                "addressCountry": "IN"
+              "@type": "Service",
+              "serviceType": "Hotel Booking",
+              "url": "https://packagesayodhya.in/hotel-booking-service",
+              "name": "Hotel Booking in Ayodhya, Varanasi, Lucknow, Prayagraj",
+              "description": "Book top-rated hotels in Ayodhya, Varanasi, Lucknow, and Prayagraj with the best prices. Convenient hotel booking service for pilgrims and tourists.",
+              "provider": {
+                "@type": "Organization",
+                "name": "Packages Ayodhya",
+                "url": "https://packagesayodhya.in",
+                "logo": "https://packagesayodhya.in/images/favicon.png",
+                "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+91-8960967852",
+                  "contactType": "Customer Support",
+                  "areaServed": "IN",
+                  "availableLanguage": "en"
+                }
               },
+              "keywords": "hotel booking in Ayodhya, hotel booking Varanasi, hotel booking Prayagraj, best hotels near Ram Mandir, affordable hotels in Ayodhya, Varanasi hotels for pilgrims,  hotels near ram mandir",
               "geo": {
                 "@type": "GeoCoordinates",
                 "latitude": "26.7980",
                 "longitude": "82.2000"
               },
-              "priceRange": "₹1500 - ₹5000 per trip",
+              "priceRange": "₹1500 - ₹5000 per night",
               "offers": {
                 "@type": "Offer",
                 "priceCurrency": "INR",
                 "price": "1500",
-                "url": "https://packagesayodhya.in/book-taxi",
+                "url": "https://packagesayodhya.in/hotels",
                 "itemOffered": {
                   "@type": "TaxiService",
                   "name": "Taxi Service from Ayodhya to Varanasi"
@@ -94,7 +99,7 @@ export default function hotels() {
                 "@type": "ReserveAction",
                 "target": {
                   "@type": "EntryPoint",
-                  "urlTemplate": "https://packagesayodhya.in/book-taxi?service_id={service_id}",
+                  "urlTemplate": "https://packagesayodhya.in/hotel?service_id={service_id}",
                   "inLanguage": "en"
                 }
               }

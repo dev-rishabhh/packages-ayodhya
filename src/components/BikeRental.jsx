@@ -59,47 +59,31 @@ function BikeRental() {
         <meta name="ICBM" content="26.7980, 82.2000" />
 
         {/*structured data  */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-  "@context": "https://schema.org",
-  "@type": "TaxiService",
-  "name": "Ayodhya Varanasi Lucknow Taxi Services",
-  "description": "Reliable taxi services for tourists traveling between Ayodhya, Varanasi, and Lucknow. Enjoy comfortable and affordable rides for sightseeing and travel.",
-  "image": "https://yourwebsite.com/images/taxi-service.webp",
-  "url": "https://yourwebsite.com/cab-services",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Main Office, Ayodhya",
-    "addressLocality": "Ayodhya",
-    "addressRegion": "Uttar Pradesh",
-    "postalCode": "224123",
-    "addressCountry": "IN"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "26.7980",
-    "longitude": "82.2000"
-  },
-  "priceRange": "₹1500 - ₹5000 per trip",
-  "serviceArea": {
-    "@type": "Place",
-    "name": "Ayodhya, Varanasi, Lucknow",
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "25.3176",
-      "longitude": "82.9739"
-    }
-  },
-  "potentialAction": {
-    "@type": "ReserveAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": "https://yourwebsite.com/book-taxi?service_id={service_id}",
-      "inLanguage": "en"
-    }
-  }
-}
-)}
+        <script type="application/ld+json">{JSON.stringify(
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Bike Rental",
+            "url": "https://packagesayodhya.in/bike-rental-service",
+            "name": "Bike Rental Service in Ayodhya, Varanasi, Lucknow, Prayagraj",
+            "description": "Rent bikes for sightseeing and exploring Ayodhya, Varanasi, Lucknow, and Prayagraj. Affordable, reliable, and convenient bike rentals for tourists.",
+            "provider": {
+              "@type": "Organization",
+              "name": "Packages Ayodhya",
+              "url": "https://packagesayodhya.in",
+              "logo": "https://packagesayodhya.in/images/favicon.png",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91-8960967852",
+                "contactType": "Customer Support",
+                "areaServed": "IN,Ayodhya,Varanasi, Lucknow",
+                "availableLanguage": "en"
+              }
+            },
+            "keywords": "bike rental Ayodhya, bike rental Varanasi, bike rental Prayagraj, bike rentals for tourists India, motorcycle hire India, rental bikes near Ram Mandir, cheap bike rental services"
+          }
+          
+        )}
         </script>
       </Helmet>
       <div className="header">

@@ -32,33 +32,6 @@ export default function ayodhyaHistory() {
         <meta name="geo.placename" content="Ayodhya" />
         <meta name="geo.position" content="26.7980;82.2000" />
         <meta name="ICBM" content="26.7980, 82.2000" />
-
-        {/*structured data  */}
-        <script type="application/ld+json">{JSON.stringify(
-          {
-            "@context": "https://schema.org",
-            "@type": "TouristAttraction",
-            "name": "Ayodhya Historical Sites",
-            "description": "Discover Ayodhya's rich history, including ancient temples, sacred sites like Ram Janmabhoomi, and cultural landmarks. A must-visit destination for history lovers and spiritual seekers.",
-            "image": "/images/ram-img .webp",
-            "url": "https://packagesayodhya.in/",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Ayodhya",
-              "addressLocality": "Ayodhya",
-              "addressRegion": "Uttar Pradesh",
-              "postalCode": "224123",
-              "addressCountry": "IN"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 26.7980,
-              "longitude": 82.2000
-            },
-            "telephone": "8960967852",
-          }
-        )}</script>
-        
       </Helmet>
 
       <div className='image-cont'>

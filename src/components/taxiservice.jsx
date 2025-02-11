@@ -46,14 +46,15 @@ export default function taxiservice() {
         <link rel="canonical" href="https://packagesayodhya.in/cab-services"/>
 
         {/* 🔹 Structured Data for Cab Services (Schema Markup) */}
-        <script type="application/ld+json">
-          {JSON.stringify({
+        <script type="application/ld+json">{JSON.stringify(
+          {
             "@context": "https://schema.org",
             "@type": "Service",
             "name": "Cab Services in Ayodhya",
             "description": "Affordable and reliable taxi services in Ayodhya for local sightseeing, airport transfers, and outstation trips. Book private car rentals and taxis online.",
             "image": "https://packagesayodhya.in/images/ertiga.webp",
             "url": "https://packagesayodhya.in/cab-services",
+            "keywords": "cab services in ayodhya, cab services in varanasi, cab services near ram mandir, taxi services in ayodhya varanasi lucknow,affordable cab in ayodhya",
             "provider": {
               "@type": "Organization",
               "name": "Ayodhya Travel Services",

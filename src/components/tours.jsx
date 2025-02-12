@@ -20,7 +20,6 @@ export default function tours() {
   <meta name="description" content="Explore our range of spiritual tour packages, including Ayodhya, Varanasi, Lucknow, and more. Book your next spiritual journey with us!" />
   <meta name="keywords" content="spiritual tours, ayodhya tour packages, varanasi tours, lucknow tours, india spiritual tours, holy tour packages, tour packages from delhi, best spiritual tours in india, ram madir tour packages ," />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://packagesayodhya.in/tours" />
   <meta property="og:title" content="Ayodhya and Other Spiritual Tour Packages | Explore India's Spiritual Heritage" />
   <meta property="og:description" content="Browse through our exclusive range of spiritual tours to Ayodhya, Varanasi, Lucknow, and other sacred destinations in India. Book your journey now!" />
   <meta property="og:image" content="https://packagesayodhya.in/images/ram-img .webp" />

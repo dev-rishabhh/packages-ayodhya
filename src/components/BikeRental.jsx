@@ -64,7 +64,7 @@ function BikeRental() {
             "@context": "https://schema.org",
             "@type": "Service",
             "serviceType": "Bike Rental",
-            "url": "https://packagesayodhya.in/bike-rental-service",
+            "url": "https://packagesayodhya.in/bike-rental",
             "name": "Bike Rental Service in Ayodhya, Varanasi, Lucknow, Prayagraj",
             "description": "Rent bikes for sightseeing and exploring Ayodhya, Varanasi, Lucknow, and Prayagraj. Affordable, reliable, and convenient bike rentals for tourists.",
             "provider": {

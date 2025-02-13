@@ -61,17 +61,12 @@ export default function homepage() {
                             "description": "Explore Ayodhya and beyond with expert travel guides, bike rentals, and tour packages. Plan your perfect trip today!",
                             "image": "https://packagesayodhya.in/images/varanasi-background.webp",
                             "keywords": "ayodhya tour packages, ram mandir tour packages, chennai to ayodhya tour, bengluru to ayodhya tour, ayodhya varanasi lucknow tour, hotels in ayodhya, ram mandir, ram temple, cab in ayodhya, top places to visit in ayodhya, ram temple tour",
-                            "sameAs": [
-                                "https://www.facebook.com/packages-ayodhya",
-                                "https://www.instagram.com/packages-ayodhya",
-                                "https://twitter.com/packages-ayodhya"
-                            ],
                             "publisher": {
                                 "@type": "Organization",
                                 "name": "packagesyodhya",
                                 "logo": {
                                     "@type": "ImageObject",
-                                    "url": "https://packagesayodhya.in/images/varanasi-background.webp"
+                                    "url": "https://packagesayodhya.in/images/favicon.png"
                                 }
                             },
                             "potentialAction": {

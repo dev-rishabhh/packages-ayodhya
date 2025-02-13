@@ -43,7 +43,7 @@ export default function taxiservice() {
         <meta name="ICBM" content="26.7980, 82.2000" />
 
         {/* 🔹 Canonical URL */}
-        <link rel="canonical" href="https://packagesayodhya.in/cab-services"/>
+        {/* <link rel="canonical" href="https://packagesayodhya.in/cab-services"/> */}
 
         {/* 🔹 Structured Data for Cab Services (Schema Markup) */}
         <script type="application/ld+json">{JSON.stringify(
@@ -58,7 +58,7 @@ export default function taxiservice() {
             "provider": {
               "@type": "Organization",
               "name": "Ayodhya Travel Services",
-              "logo":"https://packagesayodhya.in/images/logo.webp",
+              "logo":"https://packagesayodhya.in/images/favicon.png",
               "sameAs": "https://packagesayodhya.in"
             },
             "serviceType": "Cab Services, Taxi Booking, Car Rentals, Airport Transfers",

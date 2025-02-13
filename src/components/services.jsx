@@ -32,7 +32,6 @@ function Services() {
         <meta name="geo.position" content="26.7980;82.2000" />
         <meta name="ICBM" content="26.7980, 82.2000" />
 
-        <link rel="canonical" href="https://packagesayodhya.in/services" />
 
         <script type="application/ld+json">
           {JSON.stringify({

@@ -43,7 +43,7 @@ function CurrencyExchange() {
               "name": "namaste Ayodhya",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://packagesayodhya.in/image/logo.webp"
+                "url": "https://packagesayodhya.in/images/favicon.png"
               }
             },
             "url": "https://packagesayodhya.in/currency-exchange",

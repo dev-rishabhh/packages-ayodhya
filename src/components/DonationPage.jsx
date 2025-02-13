@@ -45,7 +45,7 @@ function DonationPage() {
               "name": "packages ayodhya",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://packagesayodhya.in/donation/images/Qr.webp"
+                "url": "https://packagesayodhya.in/donation/images/favicon.png"
               }
             },
             "url": "https://packagesayodhya.in/donation",
